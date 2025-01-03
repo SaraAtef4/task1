@@ -5,8 +5,8 @@ import 'package:cat_task/cat_task.dart' as cat_task;
 void main(List<String> arguments) {
   // take input from user
   print('please enter a sentence');
-  String sentence= stdin.readLineSync();
-  if (sentence!=null&&sentence.isNotEmpty) {
+  String sentence = stdin.readLineSync();
+  if (sentence != null && sentence.isNotEmpty) {
     // print the result
     String output = reversWords(sentence);
     print(output);
